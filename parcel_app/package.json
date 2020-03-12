@@ -11,11 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.7.4",
-    "babel-preset-env": "^1.7.0",
     "node-sass": "^4.13.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
   },
   "postcss": {
     "plugins": {

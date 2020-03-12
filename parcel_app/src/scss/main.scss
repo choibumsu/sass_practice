@@ -1,8 +1,39 @@
 @import 'config';
 
-h1 {
-  color: $color-primary;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  background-color: beige;
+
+  $size: 300px;
+
+  @at-root .box {
+    width: $size;
+    height: $size;
+  }
+}
+
+.box {
+  background-color: #42b883;
+  display: grid;
+  place-items: center;
+
+  border: {
+    width: 1px;
+    style: solid;
+    color: black;
+    radius: 5px;
+  }
+
+  margin: {
+    left: 50px;
+    top: 50px;
+  }
+
+  a {
+    color: white;
+    font-size: 40px;
+
+    &:visited {
+      color: black;
+    }
+  }
 }
